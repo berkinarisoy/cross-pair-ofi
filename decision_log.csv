@@ -1,0 +1,8 @@
+date,observation_or_problem,action_or_experiment,result,decision
+2026-09-10,"No historical crypto quote data on Massive, live feed only",Reviewed Massive's crypto documentation,Only trades and price bars have history,"Started recording quotes live"
+2026-09-11,Overnight recording hours came back empty,Compared disconnect times to usable data per hour,Gaps matched Hong Kong nighttime and apparently laptop was sleeping,Considered finding a more reliable way to obtain data
+2026-09-11,Only 8h dense and test split fell mostly in the empty gap,Ran the analysis on all recorded data anyway,No evidence found and test set too thin to trust,"Logged but not treated as final"
+2026-09-11,Wanted a result from just the clean recorded block,Reran restricted to the 8 dense hours,"Test set realistic yet still no evidence","Logged but not treated as final"
+2026-09-13,Too little time left to collect reliable live data,Rechecked proposal and assessment rules on changing direction,Kraken backup would not help,Switched to historical trade data instead of live quotes
+2026-09-13,Main result was directionally right but not significant,Reran at a shorter and a longer window,"Direction flipped both times and stayed insignificant",Rejected the hypothesis
+2026-09-14,Unclear why the relative flow measure showed nothing,Checked same-window vs. next-window correlation,"Own flow correlated same-window and relative flow correlated with neither",Kept the check as part of the main analysis
