@@ -37,6 +37,8 @@ python model.py
   equity markets," arXiv:2112.13213, 2021.
 - F. Capponi, R. Cont, "Multi-asset market impact and order flow commonality,"
   working paper, SSRN 3706390, 2020.
+- C. M. C. Lee, M. J. Ready, "Inferring trade direction from intraday data,"
+  *Journal of Finance* 46(2):733–746, 1991.
 
 **External datasets** — none used for the primary analysis.
 
